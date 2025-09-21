@@ -1,0 +1,27 @@
+# Systemowe
+.DS_Store
+Thumbs.db
+
+# Logi
+*.log
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Dotnet
+/TeamTrack-Backend/bin/
+/TeamTrack-Backend/obj/
+
+# IDE / Edytory
+.vscode/
+.idea/
+*.iml
+
+# Env (tajne dane, np. API keys)
+.env
+.env.local
+.env.*.local
